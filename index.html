@@ -1,0 +1,365 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Personal Site</title>
+
+        <!-- CSS -->
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+        <link rel="stylesheet" href="css/reboot.css">
+
+        <!-- ICONS -->
+        <link rel="stylesheet" href="bootstrap-icons-1.7.1/bootstrap-icons.css">
+
+    </head>
+
+    <body>
+        <div id="particles-js" class="text-center d-none d-md-block">
+
+        </div>
+        <!-- alert for site -->
+        <div class="my-3">
+            <div class="container">
+                <p class="alert bg-warning text-center alert-dismissible fade show">
+                    <span>Hello, Welcome!</span>
+                    <button class="btn-close float-end" data-bs-dismiss="alert"></button>
+                </p>
+            </div>
+
+            <!-- menu -->
+            <div class="my-3 sticky-top" id="menu">
+                <div class="container bg-light shadow">
+                    <nav class="navbar navbar-expand-lg navbar-light py-4 rounded-3 bg-light">
+                        <div class="container-fluid">
+                            <a class="navbar-brand" href="#">
+                                <img src="img/photo_2021-04-18_10-56-54.jpg" alt="icon" class="img-fluid">
+                            </a>
+                            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false"
+                                aria-label="Toggle navigation">
+                                <span class="navbar-toggler-icon"></span>
+                            </button>
+                            <div class="collapse navbar-collapse" id="navbarNav">
+                                <ul class="navbar-nav">
+                                    <li class="nav-item px-2">
+                                        <a class="nav-link text-dark" aria-current="page" href="#">Home</a>
+                                    </li>
+                                    <li class="nav-item px-2">
+                                        <a class="nav-link text-dark" href="#projects">Projects</a>
+                                    </li>
+                                    <li class="nav-item px-2">
+                                        <a class="nav-link text-dark" href="#skills">Skills</a>
+                                    </li>
+                                    <li class="nav-item px-2">
+                                        <a class="nav-link text-dark" href="#contact" tabindex="-1"
+                                            aria-disabled="true">Contact
+                                            me</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </nav>
+                </div>
+            </div>
+
+            <!-- Slide -->
+            <div  id="about-me" class="py-5"></div>
+            <div class="my-3">
+                <div class="container-fluid">
+                    <div class="container">
+                        <div class="row align-items-center">
+                            <div class="col-md-6 col-12">
+                                <img src="img/1.svg" alt="img" class="img-fluid img-slide">
+                            </div>
+                            <div class="col-md-6 col-12 text-center">
+                                <h2 class="h4 py-2">I'm a Site creator</h2>
+                                <p class="lead py-2">
+                                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Reprehenderit magnam
+                                    minima aperiam facere eaque et vel pariatur dignissimos ab saepe?
+                                </p>
+                                <a href="#contact">
+                                    <button class="btn btn-primary">Cantact Me <i
+                                        class="bi bi-arrow-right ps-2"></i></button>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Projects -->
+            <div id="projects" class="py-5"></div>
+            <div class="my-3">
+                <div class="container">
+                    <h2 class="h4 py-3">Projects <i class="bi bi-check-circle-fill text-success"></i></h2>
+                    <div class="row row-cols-1 row-cols-md-3 g-4">
+                        <div class="col">
+                            <div class="card shadow">
+                                <a href="#">
+                                    <img src="img/header.svg" class="card-img-top img-fluid img" alt="img">
+                                </a>
+                                <div class="card-body">
+                                    <a href="#" class="text-decoration-none text-dark">
+                                        <h5 class="card-title">The Example site</h5>
+                                    </a>
+                                    <p class="card-text">This is a longer card with supporting text below as a natural
+                                        lead-in to additional content. This content is a little bit longer.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="card shadow">
+                                <a href="#">
+                                    <img src="img/2.svg" class="card-img-top img-fluid img" alt="img">
+                                </a>
+                                <div class="card-body">
+                                    <a href="#" class="text-decoration-none text-dark">
+                                        <h5 class="card-title">The Example site</h5>
+                                    </a>
+                                    <p class="card-text">This is a longer card with supporting text below as a natural
+                                        lead-in to additional content. This content is a little bit longer.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="card shadow">
+                                <a href="#">
+                                    <img src="img/4.svg" class="card-img-top img-fluid img" alt="img">
+                                </a>
+                                <div class="card-body">
+                                    <a href="#" class="text-decoration-none text-dark">
+                                        <h5 class="card-title">The Example site</h5>
+                                    </a>
+                                    <p class="card-text">This is a longer card with supporting text below as a natural
+                                        lead-in to additional content. This content is a little bit longer.</p>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+
+            <!-- Skills -->
+            <div id="skills" class="py-5"></div>
+            <div class="my-5">
+                <div class="container">
+                    <div class="row">
+                        <h2 class="h4 mt-4">Skills <i class="bi bi-check-circle-fill text-success"></i></h2>
+                        <div class="col-md-6 my-3">
+                            <button class="btn btn-primary p-2 my-3">Python (Programming Language)
+                                <span class="spinner-grow spinner-grow-sm" role="status" aria-hidden="true"></span>
+                                <span class="visually-hidden">Loading...</span>
+                            </button>
+                            <div class="progress">
+                                <div class="progress-bar bg-primary progress-bar-striped progress-bar-animated"
+                                    role="progressbar" style="width: 60%;" aria-valuenow="25" aria-valuemin="0"
+                                    aria-valuemax="100">60%</div>
+                            </div>
+                        </div>
+                        <div class="col-md-6 my-3">
+                            <button class="btn btn-primary p-2 my-3">JavaScript (Programming Language)
+                                <span class="spinner-grow spinner-grow-sm" role="status" aria-hidden="true"></span>
+                                <span class="visually-hidden">Loading...</span>
+                            </button>
+                            <div class="progress">
+                                <div class="progress-bar progress-bar-striped progress-bar-animated bg-primary text-dark"
+                                    role="progressbar" style="width: 60%;" aria-valuenow="25" aria-valuemin="0"
+                                    aria-valuemax="100">60%</div>
+                            </div>
+                        </div>
+                        <div class="col-md-6 my-3">
+                            <button class="btn btn-success p-2 my-3">Django (Back-End)
+                                <span class="spinner-grow spinner-grow-sm" role="status" aria-hidden="true"></span>
+                                <span class="visually-hidden">Loading...</span>
+                            </button>
+                            <div class="progress">
+                                <div class="progress-bar progress-bar-striped progress-bar-animated bg-success"
+                                    role="progressbar" style="width: 80%;" aria-valuenow="25" aria-valuemin="0"
+                                    aria-valuemax="100">Django 80%</div>
+                            </div>
+                        </div>
+                        <div class="col-md-6 my-3">
+                            <button class="btn btn-success p-2 my-3">HTML (Front-End)
+                                <span class="spinner-grow spinner-grow-sm" role="status" aria-hidden="true"></span>
+                                <span class="visually-hidden">Loading...</span>
+                            </button>
+                            <div class="progress">
+                                <div class="progress-bar progress-bar-striped progress-bar-animated bg-success"
+                                    role="progressbar" style="width: 99%;" aria-valuenow="25" aria-valuemin="0"
+                                    aria-valuemax="100">99%</div>
+                            </div>
+                        </div>
+                        <div class="col-md-6 my-3">
+                            <button class="btn btn-primary p-2 my-3">CSS (Front-End)
+                                <span class="spinner-grow spinner-grow-sm" role="status" aria-hidden="true"></span>
+                                <span class="visually-hidden">Loading...</span>
+                            </button>
+                            <div class="progress">
+                                <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar"
+                                    style="width: 70%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">70%
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6 my-3">
+                            <button class="btn btn-success p-2 my-3">Bootstrap (Front-End)
+                                <span class="spinner-grow spinner-grow-sm" role="status" aria-hidden="true"></span>
+                                <span class="visually-hidden">Loading...</span>
+                            </button>
+                            <div class="progress">
+                                <div class="progress-bar progress-bar-striped progress-bar-animated bg-success"
+                                    role="progressbar" style="width: 80%;" aria-valuenow="25" aria-valuemin="0"
+                                    aria-valuemax="100">80%</div>
+                            </div>
+                        </div>
+                        <div class="col-md-6 my-3">
+                            <button class="btn btn-success p-2 my-3">Selenium (Python)
+                                <span class="spinner-grow spinner-grow-sm" role="status" aria-hidden="true"></span>
+                                <span class="visually-hidden">Loading...</span>
+                            </button>
+                            <div class="progress">
+                                <div class="progress-bar progress-bar-striped progress-bar-animated bg-success"
+                                    role="progressbar" style="width: 90%;" aria-valuenow="25" aria-valuemin="0"
+                                    aria-valuemax="100">90%</div>
+                            </div>
+                        </div>
+                        <div class="col-md-6 my-3">
+                            <button class="btn btn-danger p-2 my-3">Scrapy (python)
+                                <span class="spinner-grow spinner-grow-sm" role="status" aria-hidden="true"></span>
+                                <span class="visually-hidden">Loading...</span>
+                            </button>
+                            <div class="progress">
+                                <div class="progress-bar progress-bar-striped progress-bar-animated bg-danger"
+                                    role="progressbar" style="width: 25%;" aria-valuenow="25" aria-valuemin="0"
+                                    aria-valuemax="100">25%</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Contant -->
+            <div id="contact" class="py-5"></div>
+            <div class="my-3">
+                <div class="container-fluid">
+                    <div class="container">
+                        <h2 class="h2 text-center py-3"><i class="bi bi-telephone-fill px-2 text-success"></i> Contact
+                            Me
+                        </h2>
+                        <div class="row align-items-center">
+                            <div class="row my-4">
+                                <div class="col-md-6 py-4 bg-light">
+                                    <a href="tel:09147509730" class="text-decoration-none text-dark">
+                                        <span class="h4"><i class="bi bi-phone-fill pe-2 text-success"></i>Telephone:
+                                            09147509730</span>
+                                    </a>
+                                </div>
+                                <div class="col-md-6 py-4 bg-primary text-white">
+                                    <a href="mailto:AliBehzad13791122@gmail.com"
+                                        class="text-decoration-none text-white">
+                                        <span class="h4"><i class="bi bi-envelope-fill p-2 text-white"></i>Email:
+                                            AliBehzad13791122@gmail.com</span>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="col-md-6 py-4">
+                                <div class="row">
+                                    <div class="col">
+                                        <img src="img/Get in touch-amico.svg" class="img-fluid w-75 rounded-3" alt="">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <form action="" method="post">
+                                    <div class="col">
+                                        <label for="fullname" class="py-1">FullName:</label>
+                                        <input type="text" class="form-control" name="fullname" id="fullname"
+                                            placeholder="Full Name">
+                                    </div>
+                                    <div class="col">
+                                        <label for="email" class="py-1">Email:</label>
+                                        <input type="email" class="form-control" name="email" id="email"
+                                            placeholder="Your Email">
+                                    </div>
+                                    <div class="col">
+                                        <label for="textarea" class="py-1">Message:</label>
+                                        <textarea name="textarea" id="teaxarea" cols="30" rows="10" class="form-control"
+                                            placeholder="message..."></textarea>
+                                    </div>
+                                    <button type="submit" class="btn btn-success my-3 px-5">Send <i
+                                            class="bi bi-send-fill px-2"></i></button>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- footer -->
+            <footer class="bg-light">
+                <hr class="text-secondary">
+                <div class="container-fluid">
+                    <div class="container mt-5 p-3">
+                        <div class="row">
+                            <div class="col-md-4">
+                                <h2 class="h4">Related Links</h2>
+                                <ul class="list-unstyled footerlist">
+                                    <li><a href="#" class="text-decoration-none text-secondary"><i
+                                                class="bi bi-house-fill text-dark me-2"></i>Home</a></li>
+                                    <li><a href="#about-me" class="text-decoration-none text-secondary"><i
+                                                class="bi bi-file-person-fill text-dark me-2"></i>About me</a></li>
+                                    <li><a href="#projects" class="text-decoration-none text-secondary"><i
+                                                class="bi bi-kanban-fill text-dark me-2"></i>Projects</a></li>
+                                    <li><a href="#skills" class="text-decoration-none text-secondary"><i
+                                                class="bi bi-cpu-fill text-dark me-2"></i>Skills</a></li>
+                                    <li><a href="#contact" class="text-decoration-none text-secondary"><i
+                                                class="bi bi-telephone-fill text-dark me-2"></i>Contact me</a></li>
+                                </ul>
+                            </div>
+
+                            <div class="col-md-4">
+                                <h2 class="h4">I in the social Network</h2>
+                                <ul class="list-unstyled footerlist">
+                                    <li><a href="https://instagram.com/py.d.d/" target="_blank"
+                                            class="text-decoration-none text-secondary"><i
+                                                class="bi bi-instagram text-danger me-2"></i>Instagram</a></li>
+                                    <li><a href="https://t.me/DeveloperOfWorld/" target="_blank"
+                                            class="text-decoration-none text-secondary"><i
+                                                class="bi bi-telegram text-primary me-2"></i>Telegram</a></li>
+                                    <li><a href="https://github.com/alibehzad79/" target="_blank"
+                                            class="text-decoration-none text-secondary"><i
+                                                class="bi bi-github text-dark me-2"></i>GitHub</a></li>
+                                    <li><a href="#" class="text-decoration-none text-secondary"><i
+                                                class="bi bi-whatsapp text-success me-2"></i>WhatsApp</a></li>
+                                </ul>
+                            </div>
+
+                            <div class="col-md-4">
+                                <h2 class="h4">External Links</h2>
+                                <ul class="list-unstyled footerlist">
+                                    <li><a href="https://google.com" class="text-decoration-none text-secondary"><i
+                                                class="bi bi-google text-danger me-2"></i>Google.com</a></li>
+                                    <li><a href="https://stackoverflow.com"
+                                            class="text-decoration-none text-secondary"><i
+                                                class="bi bi-stack-overflow text-warning me-2"></i>stackoverflow.com</a>
+                                    </li>
+                                    <li><a href="https://github.com" class="text-decoration-none text-secondary"><i
+                                                class="bi bi-github text-dark me-2"></i>GitHub.com</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </footer>
+            <!-- SCRIPT -->
+            <script src="js/particles.js"></script>
+            <script src="js/app.js"></script>
+            <script src="js/particles.json"></script>
+            <script src="js/bootstrap.bundle.min.js"></script>
+
+    </body>
+
+</html>

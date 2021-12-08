@@ -1,0 +1,63 @@
+.nav-item a {
+    transition: all ease-in 0.3s;
+    border-radius: 3px;
+}
+
+.nav-item a:hover {
+    transition: all ease-in 0.2s !important;
+    background-color: #7d5fff !important;
+    color: white !important;
+}
+
+button .bi{
+    transition: ease-in all 0.2s !important;
+}
+
+button:hover .bi {
+    padding: 0 !important;
+    transition: all ease-in 0.2s !important;
+}
+
+.card {
+    cursor: pointer !important;
+}
+
+
+.navbar-brand img {
+    width: 50px !important;
+    height: 50px !important;
+    border-radius: 5px !important;
+}
+
+.card .img{
+    transition: all ease 0.2s !important;
+}
+
+.card:hover .img {
+    width: 390px !important;
+    transition: all ease 0.2s !important;
+}
+
+.badge {
+    cursor: pointer !important;
+}
+
+span {
+    cursor: pointer !important;
+}
+
+.footerlist li a:hover {
+    color: #29aa09 !important;
+}
+
+#particles-js {
+    background-color: #fff !important;
+    width: 100% !important;
+    height: 200px !important;
+    z-index: -1 !important;
+}
+
+
+#hello {
+    cursor: pointer !important;
+}
